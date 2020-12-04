@@ -1,0 +1,39 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background-image: url("./background.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  color: white;
+  flex-direction: column;
+}
+h1 {
+  font-size: 5rem;
+  margin-top: 15rem;
+ 
+  font-weight: normal;
+}
+.main-container {
+    margin-top: 6rem;
+  display: flex;
+}
+.big-text {
+  font-size: 6rem;
+  line-height: 1;
+  margin: 0 3rem;
+  font-weight: bold;
+}
+.expand {
+  text-align: center;
+}
+.expand span {
+  font-size: 0.8rem;
+}
